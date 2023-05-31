@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 public class Schedule {
 
     @Scheduled(cron = "0 3 1 * *")
+
     public void SchedulerTask() {
         System.out.println("Hello Codeline");
 
