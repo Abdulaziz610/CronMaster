@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Schedule {
 
-    @Scheduled(cron = "30 16 1,15 * *")
+    @Scheduled(cron = "*/10 9-17 * * 1-5")
 
 
 
